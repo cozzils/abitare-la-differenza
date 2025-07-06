@@ -1,1 +1,6 @@
+# Nel tuo repository locale
+touch .nojekyll
+git add .nojekyll
+git commit -m "Add .nojekyll for GitHub Pages"
+git push
 
