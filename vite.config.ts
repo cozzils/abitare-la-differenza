@@ -9,16 +9,5 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: false,
-    rollupOptions: {
-      input: {
-        main: './index.html'
-      },
-      output: {
-        manualChunks: undefined,
-      },
-    },
-  },
-  optimizeDeps: {
-    exclude: ['lucide-react'],
   },
 });
